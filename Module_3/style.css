@@ -1,12 +1,14 @@
-h1{
-	text-align: center;
-}
-body{
-	background-color: gray;
-}
+
+
 /** HEADER **/
 #header-nav {
+	height: 50px;
 	background-color: gray;
 	border-radius: 0;
 	border: 0;
+}
+
+.container {
+	height: 50px;
+	width: 50px;
 }
