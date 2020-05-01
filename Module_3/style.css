@@ -2,13 +2,19 @@
 
 /** HEADER **/
 #header-nav {
-	height: 50px;
+	
 	background-color: gray;
 	border-radius: 0;
 	border: 0;
 }
 
-.container {
-	height: 50px;
-	width: 50px;
+.container-header{
+	color: white;
+	font-size: 4em;
 }
+
+/** h1 **/
+h1{
+	text-align: center;
+}
+
