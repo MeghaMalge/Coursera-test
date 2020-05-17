@@ -20,6 +20,9 @@
   clear: both;
  
 }
+.navbar-toggle collapsed {
+	float: right;
+}
 
 /** h1 **/
 h1{
