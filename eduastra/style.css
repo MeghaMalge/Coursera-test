@@ -1,5 +1,5 @@
 h1{
-   color:purple;
+   color:darkslategray;
    font-size:450%;
    font-family: "candara";
    text-align: center;
@@ -22,7 +22,7 @@ h2{margin-top:0px;
 		text-align: center;
 		padding: 10px 40px 10px 40px;
 		text-decoration: none;
-		border-right:1px solid #bbb;
+		
 	}
         
     
@@ -159,31 +159,45 @@ align:right;
   overflow: hidden;
 }
 
+
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
+  float: left;
+     /* display: block;*/
+     overflow: hidden;
+    color: white;
+    position: relative;
+    background-color: darkslategray;
+    font-size:150%;
+    text-align: center;
+    text-decoration: none;
+    background-color: darkslategray;
+    padding-bottom: 0px;
+    margin-left: 0px; 
+  max-height: 47px;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+  
+
 }
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: white;
+  color: darkslategray;
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
+  margin-top: 47px;
   display: none;
   position: absolute;
   background-color: darkslategray;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
 }
 
 /* Links inside the dropdown */
