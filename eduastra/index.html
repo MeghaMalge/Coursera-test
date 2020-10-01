@@ -27,6 +27,10 @@
   <header>
     <h1>Study Dodo</h1>
   </header>
+
+  <marquee width="100%" direction="left" height="30px">
+   Bringing the extinct back!
+  </marquee>
   
   <div class="topnav">
   	<a href="index.html" style="margin-left: 10px">Home</a>
@@ -35,7 +39,7 @@
     <a href="contact.html">Contact us</a>
     <a href="faq.html">FAQ</a>
     <div class="dropdown">
-    	<button class="dropbtn">About exams
+    	<button class="dropbtn" onclick="myFunction()">About exams
     		<i class="fa fa-caret-down"></i>
     	</button>
     	<div class="dropdown-content">
@@ -48,7 +52,7 @@
     	</div>
     </div> 
     <div class="dropdown">
-    	<button class="dropbtn">Free Section
+    	<button class="dropbtn" onclick="myFunction1()">Free Section
     		<i class="fa fa-caret-down"></i>
     	</button>
     	<div class="dropdown-content">
@@ -81,6 +85,16 @@
 <a href="#" class="fa fa-youtube"></a>
 <a href="#" class="fa fa-instagram"></a>
 <a href="#" class="fa fa-yahoo"></a>
+
+<script>
+function myFunction() {
+  location.replace("exam.html")
+}
+
+function myFunction1() {
+  location.replace("free.html")
+}
+</script>
 
 </body>
 

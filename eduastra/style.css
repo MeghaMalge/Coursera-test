@@ -1,5 +1,5 @@
 h1{
-   color:darkslategray;
+   color:black;
    font-size:500%;
    font-family: "candara";
    margin-top:15px;
@@ -12,6 +12,12 @@ h2{margin-top:0px;
 		overflow: hidden;
 		background-color: darkslategray;
 	}
+
+/* style marquee */
+marquee{
+  background-color: lime;
+  font-size: 25px;
+}
 
 		/* Style the topnav links */
 	.topnav a {
@@ -170,7 +176,7 @@ align:right;
     position: relative;
     background-color: darkslategray;
     font-size:150%;
-    text-align: left;
+    text-align: center;
     padding-left: 0px;
     text-decoration: none;
     background-color: darkslategray;
