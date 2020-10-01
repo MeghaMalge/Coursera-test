@@ -158,7 +158,9 @@ align:right;
   overflow: hidden;
 }
 
-
+.dropdown .dropbtn a {
+  font-size:150%;
+}
 /* Dropdown button */
 .dropdown .dropbtn {
   float: left;
