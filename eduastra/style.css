@@ -3,7 +3,7 @@ h1{
    font-size:500%;
    font-family: "candara";
    margin-top:15px;
-   text-align: center;
+   margin-left: 600px;
    margin-bottom:0px;
 }
 h2{margin-top:0px;
@@ -168,7 +168,8 @@ align:right;
     position: relative;
     background-color: darkslategray;
     font-size:150%;
-    text-align: center;
+    text-align: left;
+    padding-left: 0px;
     text-decoration: none;
     background-color: darkslategray;
     padding-bottom: 0px;
