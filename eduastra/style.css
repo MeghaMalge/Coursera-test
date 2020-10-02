@@ -19,6 +19,14 @@ marquee{
   font-size: 25px;
 }
 
+marquee img{
+    margin-top: 0px; 
+   }
+
+.second img{
+  clear: both;
+}
+
 		/* Style the topnav links */
 	.topnav a {
 		float: left;
@@ -57,13 +65,14 @@ marquee{
       
    }
 
-   marquee img{
-    margin: 0px 0px 0px 0px; 
-   }
+
+
+/*watermark*/
+
+ 
    
   img{ float: left;
-	 margin: 20px 50px 0px 40px; 
-	 clear:both;    
+	 margin: 20px 50px 0px 40px;   
 	}
 		button{
 		\*display:inline block*\
@@ -100,7 +109,7 @@ marquee{
 .fa {
 align:right;
   padding: 10px 10px 10px 10px;
-  font-size: 50px;
+  font-size: 25px;
   width: 30px;
   height:30px;
   text-align: center;
@@ -170,6 +179,7 @@ align:right;
 
 .dropdown .dropbtn a {
   font-size:150%;
+
 }
 /* Dropdown button */
 .dropdown .dropbtn {
@@ -180,14 +190,12 @@ align:right;
     position: relative;
     background-color: darkslategray;
     font-size:150%;
+     padding-top: 0px;
     text-align: center;
-    padding-left: 0px;
     text-decoration: none;
     background-color: darkslategray;
-    padding-bottom: 0px;
-    margin-left: 0px; 
   max-height: 47px;
-  font-family: inherit; /* Important for vertical align on mobile phones */
+  font-family: inherit;/* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
   
 
