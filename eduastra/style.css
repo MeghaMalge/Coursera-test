@@ -1,13 +1,16 @@
-h1{
-   color:black;
-   font-size:500%;
-   font-family: "candara";
-   margin-top:15px;
-   margin-left: 600px;
-   margin-bottom:0px;
+/*watermark*/
+body, #container1{
+  background-color: #FF9:
+  color:#009; 
+  position: relative;
 }
-h2{margin-top:0px;
-   margin-bottom:0px;}
+
+#container2{
+  
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
 .topnav {
 		overflow: hidden;
 		background-color: darkslategray;
