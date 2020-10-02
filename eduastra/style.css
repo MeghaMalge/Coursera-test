@@ -245,3 +245,44 @@ align:right;
 }
 
 
+/* footer styleing ..( contact us page )*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+
+/*login*/
+.login{
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 2px;
+  float: right;
+  font-size: 20px;
+}
+
+.register{
+  margin-top: 50px;
+  float: right;
+  font-size: 20px;
+}
+
+/* unvisited link */
+.home a:link {
+  color: blue;
+}
+
+
+/* mouse over link */
+.home a:hover {
+  color: hotpink;
+}
+
