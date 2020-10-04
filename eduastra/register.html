@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!--[if lt IE 9]>
+
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+
+    <title>buy</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  background-color: white;
 }
 
 * {
@@ -69,6 +88,47 @@ a {
 </head>
 <body>
 
+     <a href="index.html">
+<img src="logo.jpg" width="280" height="80">
+</a>
+  
+  <marquee width="100%" direction="left" height="35px">
+   <img src="dodo.jpg" >  
+   Study Dodo .......... Bringing the extinct back!
+  </marquee>
+  <div class="topnav">
+    <a href="index.html" style="margin-left: 10px">Home</a>
+    <a href="about.html">About us</a>
+    <a href="buy.html">Buy a Course</a>
+    <a href="contact.html">Contact us</a>
+    <a href="faq.html">FAQ</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">About exams
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="">SSC</a>
+        <a href="">HSC</a>
+        <a href="">RBI Grade B</a>
+        <a href="">NHB</a>
+        <a href="">CAT</a>
+        <a href="">IBPS</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction1()">Free Section
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="">Quants</a>
+        <a href="">LRDI</a>
+        <a href="">VARC</a>
+        <a href="">Current affairs</a>
+      </div>
+    </div>
+    
+  </div>
+
 <form action="/action_page.php">
   <div class="container">
     <h1>Register</h1>
@@ -93,6 +153,16 @@ a {
     <p>Already have an account? <a href="login.html">Sign in</a>.</p>
   </div>
 </form>
+
+<script>
+function myFunction() {
+  location.replace("exam.html")
+}
+
+function myFunction1() {
+  location.replace("free.html")
+}
+</script>
 
 </body>
 </html>
